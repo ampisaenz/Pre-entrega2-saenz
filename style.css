@@ -1,0 +1,242 @@
+nav ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    overflow: hidden;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul{
+    background-color: rgb(243, 135, 153);
+    position: center;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+ul li {
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: rgb(238, 172, 230);
+}
+
+body {
+    background-color: rgb(245, 195, 195);
+    color: black;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    text-align: center;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+footer {
+    background-color: rgb(216, 156, 166);
+    bottom: 200%;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer-links a {
+    color: black;
+}
+
+.active-link {
+    color: rgb(136, 31, 48) !important
+}
+
+.footer-section {
+    margin: 3px;
+    padding: 3px;
+}
+
+.principal-text {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.principal-text h1{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-image: linear-gradient(to left, rgb(240, 170, 170) , rgb(238, 150, 165) , rgb(216, 74, 97));
+}
+
+.full-width-image {
+    min-width: 30px;
+    max-width: 50%;
+    width: 180%;
+    min-height: 150%;
+    height: 150%;
+    object-fit: cover;
+}
+ 
+.principal { 
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.principal h1 {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-image: linear-gradient(to left, rgb(240, 170, 170) , rgb(238, 150, 165) , rgb(216, 74, 97));
+}
+input[type=submit] {
+    background-color: #c776ec;
+    color: black;
+    padding: 12px 20px;
+    border: 5px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0e6d46;
+}
+
+.redes{
+    overflow: visible;
+    list-style: none;
+    display: list-item;
+}
+
+div h1{
+    position: center;
+    top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+label p{
+    text-align: center;
+}
+
+.galeriaprincipal{
+    display: grid;
+    grid-template-areas:
+        'foto1'
+        'foto2'
+        'foto3'
+        'foto4'
+        'foto5'
+        'foto6'
+        'foto7'
+        'foto8'
+        'foto9'
+        'foto10';
+    grid-template-columns: repeat(1, auto);
+    align-content: stretch;
+    gap: 10px;
+    padding: 0.5vw;
+    margin-top: 5vh;
+    width: 100px;    
+}
+
+@media only screen and (min-width: 600px) {
+    .galeria {
+        display: grid;
+        grid-template-areas:
+            'foto3 foto3 foto3 foto3 foto6 foto6 foto6 foto6'
+            'foto10 foto10 foto10 foto4 foto4 foto1 foto1 foto1'
+            'foto7 foto7 foto9 foto9 foto5 foto5 foto8 foto'
+            'foto7 foto7 foto2 foto2 foto5 foto5 foto8 foto';
+        grid-template-columns: repeat(8, auto);
+        align-content: stretch;
+        gap: 10px;
+        padding: 0.5vw; }
+}
+
+.galeria div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.animacion{
+    height: auto;
+    transition: height 2s;
+}
+
+.animacion:hover{
+    height: 250px;
+}
+
+.foto1 {
+    grid-area: foto1;
+}
+
+.foto2 {
+    grid-area: foto2;
+}
+
+.foto3 {
+    grid-area: foto3;
+}
+
+.foto4 {
+    grid-area: foto4;
+}
+
+.foto5 {
+    grid-area: foto5;
+}
+
+.foto6 {
+    grid-area: foto6;
+}
+
+.foto7 {
+    grid-area: foto7;
+}
+
+.foto8 {
+    grid-area: foto8;
+}
+
+.foto9 {
+    grid-area: foto9;
+}
+
+.foto10 {
+    grid-area: foto10;
+
+}
+
+.h1 {
+    background-image: linear-gradient(to left, rgb(253, 81, 115), rgb(240, 186, 195));
+}
